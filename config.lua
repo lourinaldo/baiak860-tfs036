@@ -103,7 +103,7 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "darkworld.com"
 	bindOnlyConfiguredIpAddress = false
 	loginPort = 7171
 	gamePort = 7172
@@ -118,7 +118,7 @@
 	onePlayerOnlinePerAccount = true
 	allowClones = false
 	serverName = "Forgotten 8.60"
-	loginMessage = "Welcome to the Forgotten Server 8.60!"
+	loginMessage = "Bem Vindo Ao DarkWorld!"
 	statusTimeout = 5 * 60 * 1000
 	replaceKickOnLogin = true
 	forceSlowConnectionsToDisconnect = false
@@ -132,7 +132,7 @@
 	sqlHost = "localhost"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = "trocar123"
+	sqlPass = "baiakworld"
 	sqlDatabase = "baiak860_tfs036"
 	sqlFile = "forgottenserver.s3db"
 	sqlKeepAlive = 0
@@ -262,11 +262,11 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = false
-	rateExperience = 5.0
-	rateExperienceFromPlayers = 0
-	rateSkill = 3.0
-	rateMagic = 3.0
-	rateLoot = 2.0
+	rateExperience = 700
+	rateExperienceFromPlayers = 5
+	rateSkill = 70
+	rateMagic = 40
+	rateLoot = 10
 	rateSpawn = 1
 
 	-- Monster rates
